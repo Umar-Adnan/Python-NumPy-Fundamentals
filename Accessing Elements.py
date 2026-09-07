@@ -14,4 +14,3 @@ print(arr[[0,6,2,6,6,8]])
 #Boolean Masking
 arr2 = np.arange(0,101,1)
 print(arr2[arr2 % 2 == 0]) #Only picks those elements that are even throught condition
-print(arr2[ arr>50 and arr<75])
